@@ -1,65 +1,37 @@
-# DataWizardGang
-En este espacio se sube el código creado para el grupo 
+# DataWizardGang - Proyecto AgroInsight
 
-Se debe agregar toda la documentación que ustedes consideren pertinente para la compresión de los modelos usados, la ejecución del código y los resultados obtenidos. 
-Puden, si desean, agregar imágenes o resultados obtenidos. 
+Nombre del Grupo:
+Data Wizard Gang
 
-Recuerden que este readme es su puerta de entrada para su proyecto. 
-
-Un ejemplo puede ser: 
-# Nombre del Proyecto
-
-Breve descripción del proyecto.
+Miembros del Grupo:
+    José Luis Camarena
+    Alejandro Cardona Henao
+    Oscar Obed Pérez Mendoza
+    Carlos Gabriel Rodríguez Chong
+    Justin Gabriel Williams Kennion
 
 ## Tabla de contenidos
+1. Nombre del Proyecto
+    AgroInsight - AI
 
-1. [Nombre](#Nombre)
-2. [Descripción](#descripción)
-3. [Arquitectura](#Arquitectura)
-4. [Proceso](#Proceso)
-5. [Funcionalidades](#Funcionalidades)
-6. [Estado del proyecto](#EstadoDelProyecto)
-7. [Agradecimientos](#Agradecimientos)
+2. Descripción:
+    Esta es una herramienta que utiliza un chatbot para atender las dudas de los agricultores respecto a la salud de sus cultivos, permitiendo que, a través de un modelo de clasificación, se obtenga el estado de salud de una planta respecto a distintas plagas contempladas. Todo este proceso es con el objetivo de lograr una red de cultivos más eficientes, sostenibles y con mayor seguridad para el consumidor.
+
+3. Arquitectura:
+    Arquitectura utilizada es una red neuronal artificial de Multilayer perceptron -MLP- con capa de entrada, capa ocultas de 8 neuronas y capa de salida.
+
+4. Proceso:
+    Como primer paso, buscamos una problemática para resolver y mucha documentación sobre esta para determinar que fuera un problema necesario de resolver. Luego hicimos una lluvia entre todo el equipo y sacamos las ideas iniciales y las funcionalidades principales del grupo después de esto comenzamos el código y a disfrutar de la experiencia.
+
+5. Funcionalidades: 
+    Chatbot para recomendaciones en contra de plagas
+    identificador de plagas por medio de imágenes
+    Aplicación móvil para mayor accesibilidad
+
+6. Estado del Proyecto:
+    Versión beta-En futuras versiones se espera aumentar la cantidad de plagas que pueda identificar el clasificador, aumentando así la calidad de las recomendaciones del chatbot.
+
+7. Agradecimientos:
+    Agradecemos al profesor Andrés quién a lo largo del curso nos sentó las bases para desarrollar el proyecto de forma éxitosa.
 
 
-* Nombre del proyecto
-
-* Breve descripción del proyecto -> Alguna imagen o gif que muestre el proyecto
-
-* Arquitectura del proyecto + imagen
-
-* Proceso de desarrollo:
-
--Fuente del dataset
--Limpieza de datos (img que lo valide)
--Manejo excepciones/control errores
--¿Qué modelo de Machine Learning están usando?
--Estadísticos (Valores, gráficos, …)
--Métrica(s) de evaluación del modelo
-
-* Funcionalidades extra:
-
-Ejem 1: Implementación de chatbot
-- Tecnología/Herramientas usadas (Librería, Framework, …)
-- Arquitectura (img)
-- Indicar fuente del dataset
-- Limpieza de datos (ejem: se usó PLN + img que lo validen)
-- Manejo excepciones/control errores
-- En caso de usar un modelo de ML indicar ¿Qué modelo de Machine Learning están usando?
-- Estadísticos (Valores, gráficos, …)
-- Métrica(s) de evaluación del modelo
-
-Ejem 2: Integración del proyecto en una pág web
-- Tecnología/Herramientas usadas …
-- Arquitectura (img)
-
-Ejem 3: Integración del proyecto en un canal WhatsApp, Discord, Telegram, Correo, …
-- Tecnología/Herramientas usadas …
-- Arquitectura (img)
-
-Ejem 4: Desarrollo de interfaz gráfica de usuario
-- Tecnología/Herramientas usadas …
-- Arquitectura (img)
-
-Ejem …: …
-- Tecnología/Herramientas usadas …

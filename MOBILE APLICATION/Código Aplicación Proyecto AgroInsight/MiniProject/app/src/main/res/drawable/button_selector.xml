@@ -1,0 +1,6 @@
+<!-- res/drawable/button_selector.xml -->
+<!-- res/drawable/button_selector.xml -->
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:state_selected="true" android:drawable="@drawable/button_seleccionado" />
+    <item android:drawable="@drawable/button_normal" />
+</selector>
